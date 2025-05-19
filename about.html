@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ДПТК</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="src/css/vendor.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>   
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <div class="menu-underlay"></div>
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="s-header__block">
+
+                <div class="s-header__logo">
+                
+                </div>
+
+                <a class="s-header__menu-toggle" href="#0"><span>Browse</span></a>
+
+                <div class="s-header__cta">
+                    <a href="reservations.html" class="btn btn--primary s-header__cta-btn">Элсэлт</a>                        
+                </div>
+
+            </div> <!-- end s-header__block -->
+
+            <nav class="s-header__nav">    
+
+                <a href="#0" class="s-header__nav-close-btn" title="close"><span>Close</span></a>
+                <ul class="s-header__nav-links">
+                    <li class="current"><a href="index.html">Нүүр</a></li>
+                    <li><a href="http://localhost:8000/news">Мэдээ</a></li>
+                    <li><a href="about.html">Бидний тухай</a></li>
+                    <li><a href="reservations.html">Элсэлт</a></li>
+                </ul> <!-- s-header__nav-links -->   
+
+                <div class="s-header__nav-bottom">
+
+                    <h6>элсэлтийн хүсэлт</h6>
+
+                    <div class="s-header__booking">
+                        <div class="s-header__booking-no"><a href="tel:+9767037-7052">7037-7052</a></div>
+                    </div>
+                      <div class="s-header__booking">
+                        <div class="s-header__booking-no"><a href="tel:+9767037-3297">7037-3297</a></div>
+                    </div>
+
+                    <ul class="s-header__nav-social social-list">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100048928733194" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                </svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                    </ul> 
+                </div> <!-- s-header__nav-bottom -->  
+
+            </nav> <!-- end s-header__nav -->
+
+        </header> <!-- end s-header -->
+
+        
+        <!-- # main content
+        ================================================== -->
+        <article class="s-content">
+
+            <!-- ## pageheader -->
+            <section class="s-pageheader" style="background-image:url(images/pageheader/surguuli.jpg)">
+                <div class="row">
+                    <div class="column xl-12 s-pageheader__content">
+                        <h1 class="page-title">                        
+                            Бидний тухай
+                        </h1>                    
+                    </div>
+                </div>
+            </section> <!-- end pageheader -->
+            
+            <!-- ## pagecontent -->
+            <section class="s-pagecontent pagecontent">
+
+                <div class="row width-narrower pageintro text-center">
+                    <div class="column xl-12">
+                        <p class="attention-getter">
+                            Дархан Политехникийн коллеж нь Монгол Улсын техник, технологийн салбарт шаардлагатай мэдлэг, ур чадвар бүхий мэргэжилтнүүдийг бэлтгэх гол төвүүдийн нэг болж чадсан.
+                        </p>
+                    </div>                       
+                </div> <!-- end pageintro -->              
+    
+                <div class="row width-narrow content-block content-block--media-right">
+                    <div class="column content-block__text">
+                        <h3>Өнөөгийн байдал</h3>
+                        <p>
+                            Харин хамгийн сүүлийн үеийн томоохон өөрчлөлт нь 2024-2025 онд болсон
+                            бөгөөд Дархан-Уул аймаг дахь Дархан Политехник коллеж, Уул Уурхай Эрчим 
+                            Хүчний Политехник коллеж, Дархан Өргөө Политехник коллеж гэсэн гурван томоохон 
+                            байгууллагыг нэгтгэн Дархан Политехникийн коллеж болгон өргөжүүлсэн байна
+                        </p>
+                    </div>
+                    <div class="column content-block__media">
+                        <figure>
+                            <img src="images/about/about-img-01.jpg " style="width: 90%;" 
+                                  alt="">
+                        </figure>
+                    </div>
+                </div> <!-- end content-block-->
+    
+                <div class="row width-narrow content-block content-block--media-left">    
+                    <div class="column content-block__text">
+                        <h3>Суралцах орчин</h3>
+                        <p>
+                        Бид ирээдүйн ажлын байранд шаардагдах чадамжуудыг олгох дэвшилтэт технологиор тоноглогдсон сургалтын орчин бүрдүүлсэн.
+                        Нэг ангид 25-аас ихгүй оюутан суралцдаг. Ингэснээр бид оюутан бүрт хүрч ажиллах, чанартай боловсрол олгох чадвартай.
+                        Суралцагчид ажлын талбарт гараад танил орчинд ажлаа хийж эхлэх үед аливаа машин, техник дээр ажиллах ур чадвараар зэмсэглэн байдаг.
+                        </p>
+                    </div>
+                    <div class="column content-block__media">
+                        <figure>
+                            <img src="images/about/about-img-02.png" 
+                                  alt="">
+                        </figure>
+                    </div>
+                </div> <!-- end content-block-->
+    
+                <div class="row width-narrow content-block content-block--media-right">
+                    <div class="column content-block__text">                        
+                        <h3>Оюутны байр</h3>
+                        <p>
+                        Оюутны байр сургуулийн кампус дотор байрладаг. Тань шигүү зардал гаргалгүйгээр яг дэргэдээ ч гэсэн сургуульдаа явах, спортын дугуйлан, цайны газар, интернет, номын сангийн үйлчилгээг нэг дороос авах боломжтой. Оюутны дотуур байр өдрийн 3 удаагийн цай, өдрийн хоолтой.
+                        </p>
+                    </div>
+                    <div class="column content-block__media">
+                        <figure>
+                            <img src="images/about/about-img-03.jpg" 
+                                 srcset="images/about/about-img-03.jpg 1x, images/about/about-img-03@2x.jpg 2x" alt="">
+                        </figure>
+                    </div>
+                </div> <!-- end content-block-->
+    
+                <div class="row width-narrow content-block content-block--grey">
+                    <div class="column xl-12">     
+                        <h3>Дугуйлан секцүүд</h3>
+                        <p>
+                        Суралцагчдын хөгжилд дэмжлэг болгох волейбол, сагсан бөмбөг, шатарт, аэробик гимнастикийн дугуйлан секц хичээллүүлдэг. Мөн мэргэжлийн чиглэлийн дугуйлан төрөл бүрийн клубууд ажилладаг.
+                        </p>
+                    </div>
+                </div> <!-- end content-block -->
+
+                <div class="row width-narrow content-block">
+                    <div class="column xl-12"> 
+    
+                        <h3>Ерөнхий мэргэжлийн чиглэл</h3>
+    
+                        <div class="grid-list-items list-items">
+                            <div class="grid-list-items__item list-items__item u-remove-bottom">
+                                <div class="list-items__item-header">
+                                    <h6 class="list-items__item-small-title">Инженерчлэл, үйлдвэрлэл, барилга байгууламж</h6>
+                                </div>
+                                <p>
+                                Техник, технологийн шийдлээр бүтээгдэхүүн үйлдвэрлэх, барилга байгууламж төлөвлөх, барих, засварлах ажлыг мэргэжлийн түвшинд гүйцэтгэх мэдлэг, чадварт суралцана. Үүнд механик, цахилгаан, барилгын инженерчлэл болон үйлдвэрлэлийн автоматжуулалт зэрэг орно.
+                                .
+                                </p>
+                            </div>
+                            <div class="grid-list-items__item list-items__item u-remove-bottom">
+                                <div class="list-items__item-header">
+                                    <h6 class="list-items__item-small-title">МЭДЭЭЛЭЛ ХАРИЛЦАА ХОЛБООНЫ ТЕХНОЛОГИУД</h6>
+                                </div>
+                                <p> 
+                                Компьютерийн программ хангамж хөгжүүлэх, сүлжээ байгуулах, мэдээллийн аюулгүй байдлыг хангах, харилцаа холбооны дэвшилтэт технологиудыг ашиглан ажиллах ур чадвар эзэмшинэ.
+                                </p>
+                            </div>
+                            <div class="grid-list-items__item list-items__item u-remove-bottom">
+                                <div class="list-items__item-header">
+                                    <h6 class="list-items__item-small-title">БАЙГАЛИЙН ШИНЖЛЭХ УХААН, МАТЕМАТИК, СТАТИСТИК</h6>
+                                </div>
+                                <p>
+                                Байгаль орчин, биологи, хими, физик зэрэг салбарын үндэс суурь ойлголт болон тоон шинжилгээ, өгөгдөл боловсруулах, судалгаанд математик, статистикийн арга ашиглах мэдлэгийг эзэмшүүлнэ.
+                                </p>
+                            </div>
+                            <div class="grid-list-items__item list-items__item u-remove-bottom">
+                                <div class="list-items__item-header">
+                                    <h6 class="list-items__item-small-title">БИЗНЕС УДИРДЛАГА, ЭРХ ЗҮЙ</h6>
+                                </div>
+                                <p>
+                                Бизнесийн үйл ажиллагаа, санхүү, хүний нөөцийн удирдлага, менежмент, эрх зүйн үндсэн ойлголтууд, хууль зүйн орчныг ойлгож, байгууллагын оновчтой үйл ажиллагааг төлөвлөх, хэрэгжүүлэх чадвартай болно.
+                                </p>
+                            </div>
+                            <div class="grid-list-items__item list-items__item u-remove-bottom">
+                                <div class="list-items__item-header">
+                                    <h6 class="list-items__item-small-title">УРЛАГ, ХҮМҮҮНЛЭГ</h6>
+                                </div>
+                                <p> 
+                                Соёл урлаг, хэл шинжлэл, түүх, философи зэрэг хүний оюун ухаан, бүтээлч сэтгэлгээг хөгжүүлэх чиглэлээр суралцаж, олон нийтийн соёлын оролцоог нэмэгдүүлэх мэдлэг, чадварыг олно..
+                                </p>
+                            </div>
+                            <div class="grid-list-items__item list-items__item u-remove-bottom">
+                                <div class="list-items__item-header">
+                                    <h6 class="list-items__item-small-title">ҮЙЛЧИЛГЭЭ</h6>
+                                </div>
+                                <p>
+                                Хүн амд зориулсан үйлчилгээний чиглэлээр (аялал жуулчлал, зочид буудал, гоо сайхан, нийтийн хоол гэх мэт) чанартай үйлчилгээ үзүүлэхэд шаардлагатай харилцаа, ёс зүй, ур чадварыг эзэмшинэ. 
+                                </p>
+                            </div>
+                        </div> <!--list-items --> 
+
+                    </div> <!-- end column-->
+                </div> <!-- end content-block -->  
+
+            </section> <!-- pagecontent --> 
+
+        </article> <!-- end main content -->
+
+      <!-- # testimonials
+        ================================================== -->
+        <section id="testimonials" class="s-testimonials">
+
+            <div class="row s-testimonials__content">
+                <div class="column xl-12">
+
+                    <h3 class="s-testimonials__title text-center">Манай төгсөгчдөөс сонсоорой</h3>
+    
+                    <div class="swiper-container s-testimonials__slider">    
+                        <div class="swiper-wrapper">
+
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-01.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        М.Билгүүн
+                                        <span>Цахилгаан хангамж, тоног төхөөрөмжийн ашиглалт (2018 оны төгсөгч)</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                “Цахилгаан хангамжийн чиглэлээр суралцсан маань надад мэргэжил, амьдралын чиг баримжаа хоёуланг өгсөн.
+                                Сургуулийн лаборатори, дадлагын хичээлүүд маш бодитой, нарийн зохион байгуулалттай байсан.
+                                Төгсөөд Дарханы нэгэн цахилгаан түгээх компанид мэргэжлээрээ шууд ажилд орсон. Өнөөдөр би системийн найдвартай
+                                 ажиллагааг хариуцдаг техникчийн алба хашиж байна. Миний суурь боловсрол бол Дархан Политехник!”
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-02.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        О.Анударь
+                                        <span>Хоол үйлдвэрлэл (2021 оны төгсөгч)</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                “Дархан Политехник коллежид хоол үйлдвэрлэлийн мэргэжлээр сурч байхдаа би зөвхөн амттай хоол хийхийг сурч аваагүй. Би зохион байгуулалт, гал тогооны хариуцлага, эрүүл ахуйн нарийн ойлголтуудыг ч гүн гүнзгий сурсан. Манай багш нар бидэнд хоол хийх ур чадвараас гадна амьдралын философи зааж өгдөг байсан. Одоо би Дарханд өөрийн нэрийн кофе шоптой. Төгсөөд шууд л мөрөөдлөө биелүүлсэндээ бахархдаг.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-03.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        Б.Ганбаяр
+                                        <span>Гагнуур (2019 оны төгсөгч)</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                “Гагнуурчин болох хүсэл минь хүүхэд байхаас эхтэй. Дархан Политехник коллеж энэ хүсэл мөрөөдлийг минь бодит амьдрал болгосон. Манай сургалтын тоног төхөөрөмж, орчин үеийн сургалт, дадлагын хичээлүүд намайг шууд ажлын талбар дээр бэлтгэсэн. Би төгсөөд шууд уул уурхайн компанид гагнуурчнаар ажиллаж эхэлсэн. Одоо би ажлын баг ахалж байна. ‘Мэргэжил бол ирээдүйн түлхүүр’ гэдэг үг бол яг л үнэн.”
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+    
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-04.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        Ц.Мөнхтуяа
+                                        <span>Хөдөлмөрийн аюулгүй байдал, эрүүл ахуй (2022 оны төгсөгч)</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                “Ажлын байрны аюулгүй байдал, эрүүл ахуйн чиглэлээр суралцсан маань миний ирээдүйд чиглэсэн маш чухал алхам байжээ. Дархан Политехник коллежийн багш нар бидэнд стандарт, хууль, эрсдэлийн үнэлгээ, тайлан боловсруулах ур чадваруудыг зааж өгсөн. Одоо би уул уурхайн компанид хөдөлмөр хамгааллын инженерээр ажиллаж байна. Хүний аюулгүй байдлыг хариуцах нь нэр төрийн хэрэг гэж боддог.”
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+        
+                        </div> <!-- end swiper-wrapper -->
+    
+                        <div class="swiper-pagination"></div>
+    
+                    </div> <!-- end s-testimonials__slider -->
+    
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials__content -->
+
+        </section> <!-- end s-testimonials --> 
+          <!-- # gallery
+        ================================================== -->
+        <section id="gallery" class="s-gallery hideonmobile">
+            <div class="row s-gallery__inner">
+                <div class="column xl-12">
+
+                    <div class="gallery-items grid-list-items">
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-1.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-1.png" 
+                                    srcset="images/gallery/gallery-1.png 1x, 
+                                            images/gallery/gallery-1@2x.png 2x" alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item-->
+            
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-9.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-9.png" 
+                                    srcset="images/gallery/gallery-9.png 1x," alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+            
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-10.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-10.png" 
+                                    srcset="images/gallery/gallery-10.png 1x," alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+            
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-11.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-11.png" 
+                                    srcset="images/gallery/gallery-11.png 1x, " alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+            
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-5.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-5.png" 
+                                    srcset="images/gallery/gallery-5.png 1x, 
+                                            images/gallery/gallery-5@2x.png 2x" alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+            
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-6.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-6.png" 
+                                    srcset="images/gallery/gallery-6.png 1x, 
+                                            images/gallery/gallery-6@2x.png 2x" alt=""> 
+                            
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+            
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-7.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-8.png"            
+                                    srcset="images/gallery/gallery-7.png 1x," alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+                        
+                        <div class="gallery-items__item grid-list-items__item">
+                            <a href="images/gallery/large/gallery-8.png" class="gallery-items__item-thumb glightbox">
+                                <img src="images/gallery/gallery-8.png" 
+                                     srcset="images/gallery/gallery-8.png 1x," alt="">
+                            </a>
+                        </div> <!-- end gallery-items__item -->
+                    </div> <!-- end grid-list-items -->
+
+                </div>
+            </div> <!-- end s-gallery__inner -->
+        </section> <!-- end s-gallery --> 
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer">  
+            
+            <div class="row s-footer__top row-x-center">
+                <div class="column xl-4 lg-6 tab-8 mob-12">
+                </div>
+            </div>
+
+            <div class="row s-footer__main-content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about"> 
+                    <div class="s-footer__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/school logo2.svg" alt="Homepage">
+                        </a>
+                    </div>  
+
+                    <p>
+                        Дархан Политехник Коллеж нь 2 дахь жилдээ дараах салбаруудад мэргэжилтэй ажилтан бэлтгэж байна.
+                    </p>               
+                </div> <!-- end s-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__info">
+                    <div class="row">
+                        <div class="column xl-6 lg-12">
+                            <h5>Сургалтын 1 бйар, 2 байр</h5>
+                            <p>
+                                Дархан сум 13-р баг Их сургуулийн гудамж <br> Дархан Политехник Коллеж
+                            
+                            </p>
+                              <h5>Сургалтын 3 бйар</h5>
+                            <p>
+                                Дархан сум 5-р баг<br> Дархан Политехник Коллеж
+                            
+                            </p>
+                        </div>
+                        <div class="column xl-6 lg-12">     
+                            <h5>Холбоо барих</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:#0">dpcedu@gmail.com</a></li>
+                                <li><a href="tel:+9767037-7052">7037-7052</a></li>
+                                <li><a href="tel:+9767037-3297">7037-3297</a></li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> <!-- end s-footer__info -->
+
+            </div> <!-- end  s-footer__main-content -->                 
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100048928733194" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                </svg>
+                                <span class="u-screen-reader-text">Twitter/X.com\\</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+
+                    </ul> 
+                </div> <!-- end section-footer__social -->
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© ДПТК 2025</span> 
+                        <span>Design by <a href="https://www.facebook.com/profile.php?id=100061787003657" target="_blank">Н.Сүхшагай</a></span>
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="src/js/plugins.js"></script>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/hide&showNav.js"></script>
+
+</body>
+</html>
